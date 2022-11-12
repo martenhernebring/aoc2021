@@ -94,6 +94,7 @@ class SonarSweepTest {
         m3.add(200);
         m3.add(208);
         measurements = ThreeSlidingWindow.getMeasurements(m3);
+        assert measurements != null;
         int result = SonarSweep.largerMeasurements(measurements);
         assertEquals(-1, result);
     }
@@ -108,6 +109,7 @@ class SonarSweepTest {
         m3.add(200);
         m3.add(207);
         measurements = ThreeSlidingWindow.getMeasurements(m3);
+        assert measurements != null;
         int result = SonarSweep.largerMeasurements(measurements);
         assertEquals(1, result);
     }
