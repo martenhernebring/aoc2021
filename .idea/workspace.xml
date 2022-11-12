@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c952bd80-e532-4685-ab0a-1b9f005f1341" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/hernebring/day1/SonarSweep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/hernebring/day1/ThreeSlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/hernebring/day2/CorrectSubmarine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/hernebring/day2/IncorrectSubmarine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/hernebring/day3/BinaryDiagnostic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hernebring/day1/SonarSweepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hernebring/day2/CorrectSubmarineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hernebring/day2/IncorrectSubmarineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hernebring/day3/BinaryDiagnosticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/se/hernebring/day3/BinaryDiagnosticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/hernebring/day3/BinaryDiagnosticTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +52,7 @@
       <recent name="se.hernebring.day1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryDiagnosticTest">
+  <component name="RunManager" selected="JUnit.SonarSweepTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.hernebring.day3.Main" />
       <module name="day1" />
@@ -112,18 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryDiagnosticTest.inputAndThenMultiplyGammaAndEpsilon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SonarSweepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se.hernebring.day3.*" />
+          <option name="PATTERN" value="se.hernebring.day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="se.hernebring.day3" />
-      <option name="MAIN_CLASS_NAME" value="se.hernebring.day3.BinaryDiagnosticTest" />
-      <option name="METHOD_NAME" value="inputAndThenMultiplyGammaAndEpsilon" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="se.hernebring.day1" />
+      <option name="MAIN_CLASS_NAME" value="se.hernebring.day1.SonarSweepTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SonarSweepTest" />
         <item itemvalue="JUnit.BinaryDiagnosticTest" />
         <item itemvalue="JUnit.se.hernebring in day1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="JUnit.BinaryDiagnosticTest.inputAndThenMultiplyGammaAndEpsilon" />
       </list>
     </recent_temporary>
   </component>

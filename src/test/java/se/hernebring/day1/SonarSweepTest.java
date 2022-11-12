@@ -68,7 +68,7 @@ class SonarSweepTest {
 
     @Test
     void inputPreviousMeasurementBiggerThanThePreviousReturnsOneThousandThreeHundredAndOne() throws FileNotFoundException {
-        File file = new File("src/main/resources/input.txt");
+        File file = new File("src/main/resources/day1.txt");
         try(Scanner sc = new Scanner(file)) {
             while (sc.hasNext())
                 measurements.add(sc.nextInt());
@@ -114,7 +114,7 @@ class SonarSweepTest {
 
     @Test
     void inputThreeMeasurementSlidingWindowReturnOneThousandThreeHundredFortySix() throws FileNotFoundException {
-        File file = new File("src/main/resources/input.txt");
+        File file = new File("src/main/resources/day1.txt");
         List<Integer> m3 = new ArrayList<>();
         try(Scanner sc = new Scanner(file)) {
             while (sc.hasNext())

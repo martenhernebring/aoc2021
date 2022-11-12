@@ -65,7 +65,7 @@ class BinaryDiagnosticTest {
 
         }
         int result = binaryDiagnostic.computeGammaEpsilonMultiplier();
-        System.out.println(result);
+        assertEquals(2250414, result);
     }
 
 }

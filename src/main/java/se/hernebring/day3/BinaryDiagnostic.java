@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinaryDiagnostic {
     private int values = 1;
-    private int[] ones;
+    private final int[] ones;
 
     private String current;
 
