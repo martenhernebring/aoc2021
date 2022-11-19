@@ -30,14 +30,16 @@ public class Crab {
 
             }
         }
-        Set<Integer> diff = new HashSet<>();
+        int minDiff = Integer.MAX_VALUE;
         for(int i = min; i <= max; i++) {
             int total = 0;
             for(var entry : position.entrySet())
                 total += entry.getValue() * (Math.abs(entry.getKey() - i));
 
-            diff.add(total);
+            if(total < minDiff)
+                minDiff = total;
+
         }
-        return Collections.min(diff);
+        return minDiff;
     }
 }
